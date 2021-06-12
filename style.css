@@ -55,3 +55,29 @@ button {
     font-size: medium;
     font-weight: bold;
 }
+
+.item {
+    background-color:rgb(245, 158, 172);
+    width: 200px;
+    height: 300px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+
+}
+
+.item:hover {
+    background-color: red;
+}
+.box {
+    border-radius: 20px;
+    width: 180px;
+    justify-content: center;
+    background-color:white;
+    margin-top: 10px;
+}
+
+
