@@ -18,7 +18,7 @@
 
         {% for personagem in personagens %}
 
-        <div class="elemento item" data-nome="{{personagem.nome}}" data-vida="{{personagem.vida}}">
+        <div class="elemento item personagem" data-nome="{{personagem.nome}}" data-vida="{{personagem.vida}}">
           <div class="box">
             <img src="{{caminhoImagem}}/{{personagem.nome}}.png" alt="{{personagem.nome}}" width="200px" height="200" />
           
@@ -37,9 +37,9 @@
       <div class="elementos-container">
         {% for arma in armas %}
         
-        <div class="elemento item" data-nome="{{arma.nome}}" data-ataque="{{arma.ataque}}">
+        <div class="elemento item arma" data-nome="{{arma.nome}}" data-ataque="{{arma.ataque}}">
           
-          <div class="elemento arma box" >
+          <div class="elemento box" >
             <img src="{{caminhoImagem}}/{{arma.nome}}.png" alt="{{arma.nome}}}}" width="200" height="200" />
           </div>
           
