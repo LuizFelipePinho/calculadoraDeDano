@@ -43,7 +43,6 @@ for (const arma of armas){ // percorre por cada indice, no caso elementos html c
         
         var nomeArma = this.getAttribute("data-nome"); // pega o valor nome
         var ataque = this.getAttribute("data-ataque") // pega o valor da vida
-        console.log(nomeArma, ataque)
         
     if (armaSelecionada.length == 0){  // se nenhum personagem for selecionado, adicione e colore o fundo
         
@@ -80,7 +79,7 @@ botao.addEventListener("click", function(){
         if (parseInt(armaSelecionada[1]) >= parseInt(personagemSelecionado[1])){
             dano.innerHTML = `Se você atacar com ${armaSelecionada[0]} que tem ${armaSelecionada[1]} de ataque, ganha de ${personagemSelecionado[0]} 
             com ${personagemSelecionado[1]} de vida  `
-            personagem
+            
     
         } else {
             dano.innerHTML = ` ${armaSelecionada[0]} não é suficiente pra matar o ${personagemSelecionado[0]}`

@@ -1,13 +1,15 @@
 body {
 	font-family: 'Verdana', sans-serif;
+    background-color: rgba(115, 115, 230, 0.932);
 }
 
 .calculadora-dano {
     margin-left: 20%;
     margin-right: 20%;
     border: 1px solid #878787;
-    border-radius: 20px;
+    border-radius: 7%;
     background-color: #F8F8F8;
+    padding-bottom: 8%;
 }
 
 .linha-container {
@@ -38,16 +40,16 @@ body {
 button {
     background-color: blue;
     border: none;
-    border-radius: 20px;
+    border-radius: 10%;
     color: white;
-    padding: 10px;
+    padding: 1%;
     cursor: pointer;
     text-align: center;
 }
 
 .selecionado {
     border: 2px solid blue;
-    border-radius: 20px;
+    border-radius: 80%;
     padding: 10px;
 }
 
@@ -58,13 +60,14 @@ button {
 
 .item {
     background-color:rgb(245, 158, 172);
-    width: 200px;
-    height: 300px;
+    width: 13em;
+    height: 30%;
     border-radius: 20px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
+    margin-bottom: 10%;
 
 
 }
@@ -73,11 +76,27 @@ button {
     background-color: red;
 }
 .box {
-    border-radius: 20px;
-    width: 180px;
+    border-radius: 10%;
+    width: 12em;
     justify-content: center;
     background-color:white;
-    margin-top: 10px;
+    margin-top: 5%;
 }
 
 
+
+/* 
+@media (max-width: 1030px){
+    .item {
+        width: 100px;
+        height: 200px;
+    }
+
+    .box {
+        width: 100px;
+    }
+
+    
+    
+  }
+*/
