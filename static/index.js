@@ -72,8 +72,18 @@ for (const arma of armas){ // percorre por cada indice, no caso elementos html c
 
 
 botao = document.getElementById("calcular")
+dano = document.getElementById("dano")
 
-botao.addEventListener("click", function(){ 
-    alert('botao funcional')
+botao.addEventListener("click", function(){
+    
+    if (parseInt(armaSelecionada[1]) >= parseInt(personagemSelecionado[1])){
+        dano.innerHTML = `Se você atacar com ${armaSelecionada[0]} que tem ${armaSelecionada[1]} de ataque, ganha de ${personagemSelecionado[0]} 
+        com ${personagemSelecionado[1]} de vida  `
+        personagem
+
+    } else {
+        dano.innerHTML = ` ${armaSelecionada[0]} não é suficiente pra matar o ${personagemSelecionado[0]}`
+    }
+   
     
 })
