@@ -22,7 +22,7 @@ def home():
     armas = [
         {
             'nome' : 'tridente', 
-            'ataque': 2,
+            'ataque': 14,
         },
          {
             'nome' : 'katana',
@@ -30,7 +30,7 @@ def home():
         },
          {
             'nome' : 'espada',
-            'ataque': 5,
+            'ataque': 10,
         }
     ]
     caminhoImagem = "/static/img/"
